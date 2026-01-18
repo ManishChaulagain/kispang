@@ -4,29 +4,18 @@ import { Button } from "@/components/ui/button";
 
 const programs = [
   {
-    icon: GraduationCap,
-    title: "Academic Programs",
-    description: "Rigorous curriculum from kindergarten through high school",
+    icon: Microscope,
+    title: "सामान्य चिकित्सा (H.A)",
+    description: "",
     color: "bg-primary",
   },
   {
-    icon: Microscope,
-    title: "STEM Education",
+    icon: GraduationCap,
+    title: "डिप्लोमा इन फार्मेसी",
     description: "Advanced science, technology, engineering, and mathematics",
     color: "bg-secondary",
   },
-  {
-    icon: Music,
-    title: "Arts & Music",
-    description: "Creative expression through performing and visual arts",
-    color: "bg-accent",
-  },
-  {
-    icon: Palette,
-    title: "Extracurricular",
-    description: "Sports, clubs, and activities for holistic development",
-    color: "bg-primary-light",
-  },
+  
 ];
 
 const ProgramsSection = () => {
